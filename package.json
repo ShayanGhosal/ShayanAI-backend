@@ -1,3 +1,14 @@
-git add package.json package-lock.json
-git commit -m "Add package.json and dependencies"
-git push origin main
+{
+  "name": "shayanai-backend",
+  "version": "1.0.0",
+  "description": "Backend for ShayanAI chatbot - integrates with Google Calendar.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "googleapis": "^161.0.0",
+    "body-parser": "^2.2.0"
+  }
+}
